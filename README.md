@@ -44,7 +44,8 @@ Once the containers are up, navigate to the Airflow web UI:
 URL: http://localhost:8080
 Username: airflow
 Password: airflow
-Step 4: Verify Elasticsearch Connection
+
+## Step 4: Verify Elasticsearch Connection
 Once the Airflow UI is running, you can check if the example DAG is connecting to Elasticsearch by checking the logs in the Airflow UI or by verifying data indexing in Elasticsearch.
 
 Usage
