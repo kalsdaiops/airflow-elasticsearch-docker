@@ -30,8 +30,6 @@ cd airflow-elasticsearch-docker
 ## Step 2: Set up the Docker Environment
 To build and start the services defined in docker-compose.yml, run:
 
-bash
-Copy
 docker-compose up -d
 This will:
 
@@ -55,6 +53,4 @@ The example DAG in this setup demonstrates how to connect to Elasticsearch and i
 Stopping the Docker Containers
 To stop the running containers:
 
-bash
-Copy
 docker-compose down
